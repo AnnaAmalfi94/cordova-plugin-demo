@@ -49,8 +49,8 @@ var app = {
         avatar.className = 'face-' + ((Math.random() * 13 + 1) >>> 0) + ' color-' + ((Math.random() * 10 + 1) >>> 0);
 
         var p = PUBNUB.init({
-            subscribe_key: 'sub-c-f762fb78-2724-11e4-a4df-02ee2ddab7fe',
-            publish_key:   'pub-c-156a6d5f-22bd-4a13-848d-b5b4d4b36695'
+            subscribe_key: 'sub-c-b6db16dc-638e-11e6-882c-02ee2ddab7fe',
+            publish_key:   'pub-c-24095229-3005-4b76-bf8c-d7b25f54ac05'
         });
 
         p.subscribe({
